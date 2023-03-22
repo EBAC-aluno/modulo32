@@ -1,4 +1,4 @@
-In order to make this project work, you need to put the folow content in the file `/src/main/resources/META-INF/persistence.xml` and create it if needed. 
+In order to make this project work, you need to put the following content in the file `/src/main/resources/META-INF/persistence.xml` and create it if needed. 
 
 ``` xml
 <?xml version="1.0" encoding="UTF-8"?>
