@@ -37,11 +37,10 @@ In order to make this project work, you need to put the folow content in the fil
     </persistence-unit>
 </persistence>
 ```
-Then, create mysql username, password and database using the same properties names available in the `persistence.xml` file.
+Then, create Mysql username, password and database using the same properties names available in the `persistence.xml` file.
 To run this project, use the command below:
 
 
 ```bash
 ./gradlew run
 ```
-
