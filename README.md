@@ -1,3 +1,5 @@
+In order to make this project work, you need to put the folow content in the file `/src/main/resources/META-INF/persistence.xml` and create it if needed. 
+
 ``` xml
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
@@ -35,3 +37,11 @@
     </persistence-unit>
 </persistence>
 ```
+Then, create mysql username, password and database using the same properties names available in the `persistence.xml` file.
+To run this project, use the command below:
+
+
+```bash
+./gradlew run
+```
+
