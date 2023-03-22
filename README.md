@@ -38,8 +38,8 @@ In order to make this project work, you need to put the following content in the
 </persistence>
 ```
 Then, create Mysql username, password and database using the same properties names available in the `persistence.xml` file.
-To run this project, use the command below:
 
+To run this project, use the command below:
 
 ```bash
 ./gradlew run
